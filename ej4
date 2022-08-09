@@ -1,0 +1,54 @@
+int numerolf = 0
+
+if (numeroIf == 0)¨{
+  system.out.println("0")
+} else if (numeroif <0) {
+    system.out.println("Negativo");
+} else if (nmeroif >0){
+    system.out.println("Postivo");
+} else {
+    system.out.println("no es entero");
+}
+------------
+------------
+int numeroWhile = 0
+
+While (numeroWhile < 3){
+  numeroWhile = numeroWhile +1;
+  System.out.prinln(numeroWhile);
+}
+------------
+------------
+int numeroWhile = 3
+
+Do {
+  System.out.prinln(numeroWhile);
+  numeroWhile = numeroWhile +1;
+} While (numeroWhile < 3);
+------------
+------------
+  int numeroFor = 0
+  
+  For(int numeroFor = 0; numeroFor <= 3; numeroFor ++)
+      System.out.prinln(numeroFor);
+------------
+------------
+var estacion = "Verano"
+
+switch (estacion) {
+  case "Verano"
+    system.out.println("Verano")
+    Break
+  case "Otoño"
+    system.out.println("otoño")
+    Break
+  case "Invierno"
+    system.out.println("invierno")
+    Break
+  Default
+    system.out.println("Primavera");
+}
+
+
+ 
+  
