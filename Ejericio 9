@@ -1,0 +1,40 @@
+Class Persona {
+    private Int edad;
+    private String nombre;
+    private String telefono;
+    }
+
+class Cliente extends Persona {
+    privada int credito
+    Cliente ObjCliente = Cliente         
+        public void setEdad (int edad) {
+            this.edad = edad;
+        }
+        public void int getEdad() {
+            return this.edad;
+    
+        public void setNombre (String nombre) {
+            this.nombre = nombre;
+        }
+        public void int getNombre() {
+            return this.nombre;
+        }
+        public void setTelefono (String telefono) {
+                this.telefono = telefono;
+        }
+        public void int getTelefono() {
+            return this.Telefono
+        }
+         public void setCredito (float credito) {
+                    this.credito = credito;
+        public static void main (string[] args) {
+            cliente objCliente = new cliente();
+            objCliente.setEdad ("22");
+            objCliente.setNombre ("Borja");
+            objCliente.setTelefono ("652-659874");
+            objCliente.setCredito ("10000");
+    
+        System.out.println(persona1.getEdad());
+        System.out.println(persona1.getNombre());
+        System.out.println(persona1.getTelefono());
+        System.out.println(persona1.getCredito());
