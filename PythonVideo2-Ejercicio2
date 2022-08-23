@@ -1,0 +1,8 @@
+x="Buenos dias amigos"
+print(x)
+Buenos dias amigos
+type(x)
+<class 'str'>
+x="se ha hecho tarde, buenas noches"
+print(x)
+se ha hecho tarde, buenas noches
