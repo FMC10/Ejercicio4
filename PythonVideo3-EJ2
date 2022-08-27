@@ -1,0 +1,6 @@
+PesoEnKG=float
+PesoEnKG=75.4
+EstaturaEnMetros=float
+EstaturaEnMetros=1.69
+IMC=PesoEnKG//EstaturaEnMetros
+print(round(IMC,2))
