@@ -1,0 +1,18 @@
+Nombre=str
+Apellido=str
+Edad=float
+Email=str
+Telefono=str
+Casado=bool
+ConHijos=bool
+Listaamigos=[]
+PeliculasVistas = {"Pelicula1":"Titulo1","Pelicula2":"Titulo2"}
+print(Nombre)
+print(Apellido)
+print(Edad)
+print(Email)
+print(Telefono)
+print(Casado)
+print(ConHijos)
+print(ListaAmigos)
+print(PeliculasVistas)
