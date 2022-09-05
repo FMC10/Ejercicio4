@@ -1,3 +1,16 @@
-for numero in range(2,11):
-    if numero % 2 != 0:
-        print(numero, "es un numero impar")
+# Escribe un programa capaz de mostrar todos los números impares desde un número de inicio y otro final.
+# Mensaje al usuario para que introduzca
+
+numero_inicial: int = int(input('Introduce un numero incial'))
+numero_final: int = int(input('Introduce el numero final'))
+numeros_impares: [int] = []
+
+while numero_final <= numero_inicial:
+    numero_final: int(input('El numero final debe ser mayor que el inicial pa'))
+
+for i in range(numero_inicial, numero_final+1):
+    if (i% 2 != 0):
+        numeros_impares.append(i)
+
+print(f'Lista de NUmero impares entre{numero_inicial} y {numero_final}:')
+print(numeros_impares)
