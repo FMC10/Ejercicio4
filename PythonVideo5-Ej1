@@ -1,2 +1,11 @@
 # Escribe una función que pueda decirte si un año (número entero) es bisiesto o no.
-numero_inicial: int = int(input('Introduce un numero incial'))
+
+def analizar_año ():
+    if (año % 2 == 0) :
+        print("el año es bisiesto")
+    else:
+        print("el año no es bisiesto")
+
+año: int = int(input("Introduce un año"))
+
+analizar_año ()
